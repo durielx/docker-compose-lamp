@@ -162,8 +162,6 @@ services:
     image: adminer
     links:
       - mariadb
-      - postgres
-      - mongo
     depends_on:
       - mariadb
     ports:
